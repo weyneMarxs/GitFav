@@ -78,7 +78,10 @@ main {
   margin: 7rem auto 0;
   align-items: flex-start;
   border-radius: 1.2rem;
+<<<<<<< Updated upstream
   /* height: 60.0rem; */
+=======
+>>>>>>> Stashed changes
   position: relative;
   overflow: auto;
 }
@@ -191,4 +194,28 @@ td button.btn-remove:hover {
 }
 
 @media screen and (max-width: 1366px) {
+<<<<<<< Updated upstream
+=======
+
+  header {
+    margin: 6rem auto 0;
+    display: flex;
+    width: 112rem;
+    justify-content: space-around;
+    align-items: center;
+    gap: 29.3rem;
+  }
+  main {
+    width: 112rem;
+    height: 41.2rem;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #4A808C;
+    margin: 7rem auto 1rem;
+    align-items: flex-start;
+    border-radius: 1.2rem;
+    position: relative;
+    overflow: auto;
+  }
+>>>>>>> Stashed changes
 }
