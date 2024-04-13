@@ -118,10 +118,13 @@ tbody tr {
   border: 1px solid #4A808C;
   text-align: left;
   background-color: #030b0d;
+  border-right: none;
+  border-left: none;
 }
 
 table tr:nth-child(odd) {
   background: #06181c;
+  border-bottom: none;
 }
 
 table td {
