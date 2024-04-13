@@ -194,9 +194,7 @@ td button.btn-remove:hover {
 }
 
 @media screen and (max-width: 1366px) {
-<<<<<<< Updated upstream
-=======
-
+  
   header {
     margin: 6rem auto 0;
     display: flex;
@@ -217,5 +215,4 @@ td button.btn-remove:hover {
     position: relative;
     overflow: auto;
   }
->>>>>>> Stashed changes
 }
