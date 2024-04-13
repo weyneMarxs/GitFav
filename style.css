@@ -78,11 +78,9 @@ main {
   margin: 7rem auto 0;
   align-items: flex-start;
   border-radius: 1.2rem;
-<<<<<<< Updated upstream
+  <<<<<<< Updated upstream
   /* height: 60.0rem; */
-=======
->>>>>>> Stashed changes
-  position: relative;
+  =======>>>>>>>Stashed changes position: relative;
   overflow: auto;
 }
 
@@ -194,9 +192,6 @@ td button.btn-remove:hover {
 }
 
 @media screen and (max-width: 1366px) {
-<<<<<<< Updated upstream
-=======
-
   header {
     margin: 6rem auto 0;
     display: flex;
@@ -205,6 +200,7 @@ td button.btn-remove:hover {
     align-items: center;
     gap: 29.3rem;
   }
+
   main {
     width: 112rem;
     height: 41.2rem;
@@ -217,5 +213,4 @@ td button.btn-remove:hover {
     position: relative;
     overflow: auto;
   }
->>>>>>> Stashed changes
 }
