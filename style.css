@@ -193,7 +193,7 @@ td button.btn-remove:hover {
   font-size: 4rem;
 }
 
-@media screen and (max-width: 1100px) {
+@media screen and (max-width: 1200px) {
   body {
     background: red;
   }
