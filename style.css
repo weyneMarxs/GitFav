@@ -60,6 +60,7 @@ header {
   font-weight: bold;
   cursor: pointer;
   gap: .8rem;
+  transition: all .3s ease;
 }
 
 .search button.btnAdd:hover {
@@ -70,14 +71,14 @@ header {
 
 main {
   width: 112rem;
-  height: 500pxs;
+  height: 61.2rem;
   display: flex;
   flex-direction: column;
   border: 1px solid #4A808C;
   margin: 7rem auto 0;
   align-items: flex-start;
   border-radius: 1.2rem;
-  height: 60.0rem;
+  /* height: 60.0rem; */
   position: relative;
   overflow: auto;
 }
@@ -111,18 +112,13 @@ table th {
   font-size: 2rem;
   background: #092D38;
   text-align: left;
-  vertical-align: middle;
-  padding: 1.6rem 0 1.6rem 2rem;
+  padding: 1.4rem 0 1.4rem 2rem;
 }
 
 tbody tr {
   border: 1px solid #4A808C;
-}
-
-table tr {
   text-align: left;
   background-color: #030b0d;
-  vertical-align: middle;
 }
 
 table tr:nth-child(odd) {
@@ -169,6 +165,7 @@ td button.btn-remove {
   font-size: 2rem;
   font-weight: bold;
   cursor: pointer;
+  transition: all .3s ease;
 }
 
 td button.btn-remove:hover {
@@ -193,8 +190,4 @@ td button.btn-remove:hover {
   font-size: 4rem;
 }
 
-@media screen and (max-width: 1200px) {
-  body {
-    background: red;
-  }
-}
+@media screen and (max-width: 1366px) {}
