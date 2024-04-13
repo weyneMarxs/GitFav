@@ -21,7 +21,7 @@ body,
 body {
   font-size: 1.6rem;
   background-color: #000;
-  max-height: 100vh;
+  height: 100%;
 }
 
 header {
@@ -70,6 +70,7 @@ header {
 
 main {
   width: 112rem;
+  height: 500pxs;
   display: flex;
   flex-direction: column;
   border: 1px solid #4A808C;
@@ -98,6 +99,7 @@ main::-webkit-scrollbar {
 
 table {
   border-collapse: collapse;
+  border-spacing: 0;
   width: 100%;
 }
 
