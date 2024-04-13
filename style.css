@@ -21,7 +21,7 @@ body,
 body {
   font-size: 1.6rem;
   background-color: #000;
-  height: 100vh;
+  max-height: 100vh;
 }
 
 header {
@@ -109,19 +109,18 @@ table th {
   font-size: 2rem;
   background: #092D38;
   text-align: left;
+  vertical-align: middle;
   padding: 1.6rem 0 1.6rem 2rem;
 }
 
-/* table th:first-child {
-  border-top-left-radius: 1.2rem;
+tbody tr {
+  border: 1px solid #4A808C;
 }
 
-table th:last-child {
-  border-top-right-radius: 1.2rem;
-} */
-
 table tr {
+  text-align: left;
   background-color: #030b0d;
+  vertical-align: middle;
 }
 
 table tr:nth-child(odd) {
@@ -146,6 +145,7 @@ table td.user a {
 
 table td.user a p {
   font-weight: bold;
+  margin-bottom: .8rem;
 }
 
 table td.user a span {
@@ -173,11 +173,6 @@ td button.btn-remove:hover {
   color: #ff8c95;
 }
 
-
-h1 {
-  color: rebeccapurple;
-}
-
 #tableEmpty.hidden {
   display: none;
 }
@@ -195,124 +190,3 @@ h1 {
   font-weight: bold;
   font-size: 4rem;
 }
-
-
-/* #container {
-  display: grid;
-  grid-template-rows: 30% 70%;
-  height: 100vh;
-  max-width: 100%;
-}
-
-#container header {
-  display: flex;
-  justify-content: space-around;
-  margin-top: 11.5rem;
-}
-
-.search {
-  display: flex;
-  align-items: flex-start;
-  gap: .8rem;
-
-}
-
-.search input {
-  min-width: 46rem;
-  padding: 1.6rem;
-  color: #7C7C8A;
-  background-color: #06181C;
-  border: none;
-  border-radius: .5rem;
-}
-
-.search button.btnAdd {
-  padding: 1.6rem 3rem 1.6rem 4rem;
-  color: #ffffff;
-  background-color: #065E7C;
-  border: none;
-  border-radius: .5rem;
-  display: flex;
-  align-items: center;
-  font-weight: bold;
-  cursor: pointer;
-  gap: .8rem;
-}
-
-.search button.btnAdd:hover {
-  color: #065E7C;
-  background-color: #ffffff;
-}
-
-#container main {
-  display: flex;
-  align-items: flex-start;
-  justify-content: center;
-}
-
-#table {}
-
-main table {
-  width: 100%;
-  border: 1px solid #4A808C;
-  border-collapse: collapse;
-}
-
-main table * {
-  font-size: 2rem;
-  color: #ffffff;
-}
-
-main table th {
-  background: #092D38;
-  text-align: left;
-  padding: 1.6rem 0 1.6rem 2rem;
-
-}
-
-table th:first-child {
-  border-top-left-radius: .5rem;
-}
-
-table th:last-child {
-  border-top-right-radius: .5rem;
-}
-
-table tr {
-  background-color: #030b0d;
-}
-
-table tr:nth-child(odd) {
-  background: #06181c;
-
-}
-
-td {
-  text-align: left;
-  padding: 1.6rem;
-}
-
-td.user {
-  display: flex;
-  align-items: center;
-  gap: 3rem;
-}
-
-td.user img {
-  width: 5rem;
-  height: 5rem;
-  object-fit: cover;
-  border-radius: 50%;
-}
-
-td.user a {
-  text-decoration: none;
-}
-
-td.user a p {
-  font-weight: bold;
-}
-
-td.user a span {
-  font-weight: normal;
-} */

@@ -5,6 +5,8 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="style.css">
   <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+  <script type="module" src="./js/index.js" defer></script>
   <title>GitFav</title>
 </head>
 <body>
@@ -19,7 +21,8 @@
       </div>
     </header>
     <main>
-      <table>
+    <table>
+      <div class="thead">
         <thead>
           <tr>
             <th>Usuário</th>
@@ -28,37 +31,11 @@
             <th>Ação</th>
           </tr>
         </thead>
-        <tbody>
-          <tr>
-            <td class="user">
-              <img src="https://github.com/diego3g.png">
-              <a href="https://github.com/diego3g" target="_blank">
-                <p>Diego Fernandes</p>
-                <span>/diego3g</span>
-              </a>
-            </td>
-            <td class="repositories">48</td>
-            <td class="followers">12023</td>
-            <td>
-              <button class="btn-remove">Remover</button>
-            </td>
-          </tr>
-          <tr>
-            <td class="user">
-              <img src="https://github.com/weyneMarxs.png">
-              <a href="https://github.com/weyneMarxs" target="_blank">
-                <p>Weyne Marques</p>
-                <span>/weyneMarxs</span>
-              </a>
-            </td>
-            <td class="repositories">48</td>
-            <td class="followers">12023</td>
-            <td>
-              <button class="btn-remove">Remover</button>
-            </td>
-          </tr>
-          <tr>
-        </tbody>
+      </div>
+      <div class="tb-body">
+          <tbody>
+          </tbody>
+        </div>
       </table>
       <div id="tableEmpty" class="hidden">
         <img src="./assets/Estrela.svg" alt="Estrela">
