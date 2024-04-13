@@ -192,6 +192,7 @@ td button.btn-remove:hover {
 }
 
 @media screen and (max-width: 1366px) {
+
   header {
     margin: 6rem auto 0;
     display: flex;
