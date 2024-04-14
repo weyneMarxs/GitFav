@@ -7,9 +7,9 @@
 
 ## Observações
 
-  - O layout não ficou exatamente igual ao sugerido !
-  - no processo acabei descobrindo um bug, ao inserir o mesmo nome de usuário porém com letras maisculas ou somente algumas das letras maiuscula ele dublicava o usuário, pra corrigir adcionei um toLowerCase() no valor passado na paramentro pra função 'add()'
+  - O layout não ficou exatamente igual ao sugerido!
+  - Descobri um bug ao inserir o mesmo nome de usuário, porém com letras maiúsculas ou somente algumas das letras maiúsculas, ele duplicava o usuário. Para corrigir, adicionei um toLowerCase() no valor passado no parâmetro para a função 'add()'
 
     `this.add(value.toLowerCase())` 
 
-  - outra alteração, após adicionar um usuario o campo input e limpo e já volta selecinado com uma autofoco !
+  - Outra alteração, após adicionar um usuário, o campo input é limpo e já volta selecionado com um autofoco!
