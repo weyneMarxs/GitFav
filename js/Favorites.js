@@ -15,6 +15,7 @@ export class Favorites {
   async add(username) {
     try {
       const userExists = this.users.find(entry => entry.login === username)
+      console.log(userExists)
       if(userExists) {
         throw new Error('Usuário já cadastrado !')
       }
